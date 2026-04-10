@@ -1,97 +1,214 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Glow Up Guide</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            background-color: #fff5f8;
-            color: #333;
-        }
-        header {
-            background-color: #ffb6c1;
-            padding: 20px;
-            text-align: center;
-        }
-        nav {
-            background-color: #ffc0cb;
-            padding: 10px;
-            text-align: center;
-        }
-        nav a {
-            margin: 10px;
-            text-decoration: none;
-            color: black;
-            font-weight: bold;
-        }
-        section {
-            padding: 20px;
-        }
-        h1, h2 {
-            color: #d63384;
-        }
-        footer {
-            text-align: center;
-            padding: 10px;
-            background-color: #ffc0cb;
-        }
-        .card {
-            background: white;
-            padding: 15px;
-            margin: 15px 0;
-            border-radius: 10px;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Glow Up Guide | Home</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #fff7fb;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(to right, #ffc1d6, #ffe3ee);
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    header h1 {
+      margin: 0;
+      color: #c94f7c;
+      font-size: 3rem;
+    }
+
+    header p {
+      margin-top: 10px;
+      font-size: 1.1rem;
+    }
+
+    nav {
+      background-color: #ffd3e2;
+      padding: 15px;
+      text-align: center;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #8a2d52;
+      font-weight: bold;
+      margin: 0 15px;
+      font-size: 1rem;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: auto;
+      padding: 30px 20px;
+    }
+
+    .hero {
+      background: white;
+      padding: 30px;
+      border-radius: 16px;
+      text-align: center;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+      margin-bottom: 30px;
+    }
+
+    .hero h2 {
+      color: #d14d7d;
+      margin-top: 0;
+    }
+
+    .grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin-bottom: 30px;
+    }
+
+    .card {
+      flex: 1 1 250px;
+      background: white;
+      border-radius: 14px;
+      padding: 20px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    }
+
+    .card h3 {
+      color: #d14d7d;
+      margin-top: 0;
+    }
+
+    .checklist {
+      background: white;
+      padding: 25px;
+      border-radius: 14px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    }
+
+    .checklist h2 {
+      color: #d14d7d;
+      margin-top: 0;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 15px;
+    }
+
+    th, td {
+      border: 1px solid #f0bfd0;
+      padding: 12px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #ffe4ee;
+    }
+
+    footer {
+      text-align: center;
+      background-color: #ffd3e2;
+      padding: 18px;
+      margin-top: 30px;
+      font-size: 0.95rem;
+    }
+  </style>
 </head>
 
 <body>
 
-<header>
+  <header>
     <h1>Glow Up Guide</h1>
     <p>By Brooke Zorovich</p>
-</header>
+  </header>
 
-<nav>
-    <a href="#">Home</a>
-    <a href="#">Mental</a>
-    <a href="#">Physical</a>
-    <a href="#">Style</a>
-    <a href="#">Routines</a>
-    <a href="#">Contact</a>
-</nav>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <!-- you’ll add more pages later -->
+  </nav>
 
-<section>
-    <h2>What is a Glow Up?</h2>
-    <div class="card">
-        <p>A glow up is not just about appearance—it’s about becoming the best version of yourself mentally, physically, and emotionally.</p>
-    </div>
+  <main>
 
-    <h2>Mental Glow Up</h2>
-    <div class="card">
-        <p>Practice confidence, positive thinking, and self-care habits that improve your mindset.</p>
-    </div>
+    <section class="hero">
+      <h2>What a Glow Up Really Means</h2>
+      <p>
+        A glow up is not about changing who you are — it is about becoming the
+        healthiest, most confident, and most balanced version of yourself.
+        This guide helps teens improve their mindset, habits, and lifestyle
+        in a realistic and positive way.
+      </p>
+    </section>
 
-    <h2>Physical Glow Up</h2>
-    <div class="card">
-        <p>Focus on skincare, hygiene, and simple fitness routines to feel your best.</p>
-    </div>
+    <section class="grid">
 
-    <h2>Style Glow Up</h2>
-    <div class="card">
-        <p>Find your personal style and wear what makes you feel confident.</p>
-    </div>
+      <div class="card">
+        <h3>Mental Glow Up</h3>
+        <p>
+          Build confidence, improve your mindset, and develop strong self-care habits.
+        </p>
+      </div>
 
-    <h2>Daily Habits</h2>
-    <div class="card">
-        <p>Create routines that support your goals and help you stay consistent.</p>
-    </div>
-</section>
+      <div class="card">
+        <h3>Physical Glow Up</h3>
+        <p>
+          Learn skincare basics, hygiene, and simple fitness habits that are easy to follow.
+        </p>
+      </div>
 
-<footer>
+      <div class="card">
+        <h3>Style Glow Up</h3>
+        <p>
+          Discover your personal style and wear what makes you feel confident.
+        </p>
+      </div>
+
+    </section>
+
+    <section class="checklist">
+      <h2>Glow Up Checklist</h2>
+
+      <table>
+        <tr>
+          <th>Goal</th>
+          <th>Status</th>
+        </tr>
+        <tr>
+          <td>Drink more water daily</td>
+          <td>In Progress</td>
+        </tr>
+        <tr>
+          <td>Sleep at least 8 hours</td>
+          <td>Working On It</td>
+        </tr>
+        <tr>
+          <td>Create a morning routine</td>
+          <td>Started</td>
+        </tr>
+        <tr>
+          <td>Practice confidence</td>
+          <td>Improving</td>
+        </tr>
+      </table>
+
+    </section>
+
+  </main>
+
+  <footer>
     <p>© 2026 Brooke Zorovich | Glow Up Guide</p>
-</footer>
+  </footer>
 
 </body>
 </html>
