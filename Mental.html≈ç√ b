@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Glow Up Guide | Mental Glow Up</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #fff7fb;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(to right, #ffc1d6, #ffe3ee);
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    header h1 {
+      margin: 0;
+      color: #c94f7c;
+      font-size: 2.8rem;
+    }
+
+    header p {
+      margin-top: 10px;
+      font-size: 1.1rem;
+    }
+
+    nav {
+      background-color: #ffd3e2;
+      padding: 15px;
+      text-align: center;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #8a2d52;
+      font-weight: bold;
+      margin: 0 12px;
+      font-size: 1rem;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: auto;
+      padding: 30px 20px;
+    }
+
+    .section-box {
+      background-color: white;
+      border-radius: 14px;
+      padding: 25px;
+      margin-bottom: 25px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    }
+
+    h2, h3 {
+      color: #d14d7d;
+      margin-top: 0;
+    }
+
+    .intro {
+      text-align: center;
+    }
+
+    .grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin-bottom: 25px;
+    }
+
+    .card {
+      flex: 1 1 250px;
+      background-color: white;
+      border-radius: 14px;
+      padding: 20px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    }
+
+    .quote {
+      background-color: #ffe4ee;
+      color: #8a2d52;
+      text-align: center;
+      font-weight: bold;
+      font-size: 1.2rem;
+      padding: 20px;
+      border-radius: 14px;
+      margin-bottom: 25px;
+    }
+
+    ul, ol {
+      padding-left: 22px;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 15px;
+    }
+
+    th, td {
+      border: 1px solid #f0bfd0;
+      padding: 12px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #ffe4ee;
+      color: #8a2d52;
+    }
+
+    footer {
+      text-align: center;
+      background-color: #ffd3e2;
+      padding: 18px;
+      margin-top: 30px;
+      font-size: 0.95rem;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Mental Glow Up</h1>
+    <p>Confidence, mindset, motivation, and self-care</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="mental.html">Mental</a>
+    <a href="physical.html">Physical</a>
+    <a href="style.html">Style</a>
+    <a href="routines.html">Routines</a>
+    <a href="checklist.html">Checklist</a>
+    <a href="faq.html">FAQ</a>
+  </nav>
+
+  <main>
+
+    <section class="section-box intro">
+      <h2>What Is a Mental Glow Up?</h2>
+      <p>
+        A mental glow up is the part of self-improvement that focuses on your
+        thoughts, confidence, motivation, and emotional well-being. It is not
+        about pretending to be happy all the time. Instead, it is about learning
+        how to speak to yourself kindly, handle stress in healthier ways, and
+        build habits that help you feel more balanced.
+      </p>
+    </section>
+
+    <div class="quote">
+      “The way you treat yourself on the inside affects how you show up on the outside.”
+    </div>
+
+    <section class="grid">
+
+      <div class="card">
+        <h3>Positive Self-Talk</h3>
+        <p>
+          One of the biggest parts of a mental glow up is changing the way you
+          talk to yourself. Instead of focusing only on mistakes or flaws,
+          positive self-talk helps you notice your strengths and progress.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Confidence Building</h3>
+        <p>
+          Confidence is built through small actions. Doing your homework,
+          keeping promises to yourself, trying something new, or speaking up
+          can all help you feel more capable over time.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Healthy Boundaries</h3>
+        <p>
+          A mental glow up also means protecting your peace. This can include
+          limiting drama, taking breaks from social media, and spending time
+          with people who support you.
+        </p>
+      </div>
+
+    </section>
+
+    <section class="section-box">
+      <h2>Daily Mindset Habits</h2>
+      <ul>
+        <li>Write down one thing you are proud of each day.</li>
+        <li>Set one realistic goal instead of overwhelming yourself.</li>
+        <li>Take a short break when you feel stressed or frustrated.</li>
+        <li>Practice gratitude by noticing good parts of your day.</li>
+        <li>Stop comparing your progress to everyone else’s timeline.</li>
+        <li>Remind yourself that improvement takes time and consistency.</li>
+      </ul>
+    </section>
+
+    <section class="section-box">
+      <h2>Stress Management Tips</h2>
+      <p>
+        Stress is normal, especially with school, friendships, activities, and
+        responsibilities. A mental glow up does not mean removing every stressful
+        thing from your life. It means learning better ways to respond when life
+        feels overwhelming.
+      </p>
+
+      <ol>
+        <li>Pause and take a few deep breaths before reacting.</li>
+        <li>Break big tasks into smaller steps.</li>
+        <li>Talk to someone you trust when you need support.</li>
+        <li>Get enough sleep so your mind can reset.</li>
+        <li>Use music, journaling, walking, or quiet time to calm down.</li>
+      </ol>
+    </section>
+
+    <section class="section-box">
+      <h2>Mental Glow Up Goal Tracker</h2>
+      <p>
+        This table shows examples of simple mindset goals that can help build
+        confidence and emotional balance.
+      </p>
+
+      <table>
+        <tr>
+          <th>Goal</th>
+          <th>Why It Helps</th>
+          <th>Example</th>
+        </tr>
+        <tr>
+          <td>Practice positive self-talk</td>
+          <td>Builds confidence</td>
+          <td>Replace “I can’t do this” with “I can try my best.”</td>
+        </tr>
+        <tr>
+          <td>Limit comparison</td>
+          <td>Protects your self-esteem</td>
+          <td>Remember that social media does not show everyone’s full life.</td>
+        </tr>
+        <tr>
+          <td>Set small goals</td>
+          <td>Makes progress easier</td>
+          <td>Choose one habit to focus on each week.</td>
+        </tr>
+      </table>
+    </section>
+
+    <section class="section-box">
+      <h2>Why Mental Confidence Matters</h2>
+      <p>
+        Mental confidence is important because it affects every other part of a
+        glow up. When you feel better about yourself, it becomes easier to take
+        care of your body, stay organized, express your style, and make healthy
+        choices. A real glow up starts with learning to value yourself.
+      </p>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© 2026 Brooke Zorovich | Glow Up Guide</p>
+  </footer>
+
+</body>
+</html>
